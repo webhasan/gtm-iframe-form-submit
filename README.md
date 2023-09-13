@@ -1,2 +1,16 @@
-# gtm-iframe-form-submit
-Iframe Form Interaction and Form Submit Tracking with Google Tag Manager
+# Tracking Iframe Form Interactions and Form Submissions with Google Tag Manager
+
+If you lack access to the iframe source, tracking form submission events within your website can be quite challenging. However, a solution to this problem is available through the following code snippet.
+
+## How to Implement
+
+1. In Google Tag Manager, create a new tag as a custom HTML tag.
+2. Inside the tag, paste the entire code from the `script.js` file provided in this repository. Don't forget to wrap the code with ```<script>``` tag.
+3. Set the trigger to fire on *All Pages* page views.
+
+Once you've configured this setup, you'll begin receiving Google Tag Manager dataLayer events:
+
+- **iframe_from_start**: This event will be triggered when a visitor first interacts with the form within the iframe.
+- **iframe_from_submit**: You'll receive this event when the form is successfully submitted.
+
+**Recommendations:** Keep in mind that your web page may contain multiple iframes. Therefore, it is highly recommended to adjust the iframe selector to target the correct iframe. You can utilize CSS class selectors or ID selectors for this purpose.
