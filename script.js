@@ -5,6 +5,8 @@
          * Email: webhasan24@gmail.com
          * Linkedin: https://linkedin.com/md-h
          * Youtube: https://www.youtube.com/@LeoMeasure-nr3pf
+         * Version: 1.0.0
+         * Last Update: 13 Sep 2023
          */
     
         var iframeSelector = 'iframe'; // change this as your iframe selector
