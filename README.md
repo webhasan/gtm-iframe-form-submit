@@ -1,4 +1,4 @@
-# Tracking Iframe Form Interactions and Form Submissions with Google Tag Manager
+# GTM dataLayer for Iframe Form Interactions and Form Submissions
 
 If you lack access to the iframe source site, it is quite impossible to track iframe form submit event with Google Tag Manager. However, a solution to this problem is available through the following code snippet.
 
